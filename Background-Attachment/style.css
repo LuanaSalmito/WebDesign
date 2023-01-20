@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style: none;
+    height: 150%;
+    line-height: 150%;
+    text-align:center;
+    background-color:#5671A6;
+}   
+li{
+    display: inline-block;
+    font-size: 1.2em;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #F2EEAC;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    transition: 0.6s; 
+    /* Com transition a mudança é gradativa, posso defino o tempo. */
+}
+a:hover{
+    background-color: #29B9D9;
+    
+
+}
+.imagem-1{
+    background-image: url(https://wallpapercave.com/wp/wp8822226.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100vh;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    
+}
+
+.imagem-1 span{
+    line-height: 100vh;
+    background-color:#EDB9AE;
+
+
+    
+}
+.containerparal1{
+    background-color: #A9D9D4;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 20vh;
+    text-align: center justify;
+    font-size: 25px;
+
+
+}
+.titulocontainer1{
+    text-align: center;
+}
+.imagem-2{
+    background-image: url(https://i.pinimg.com/originals/07/59/75/0759750a41964c5888557fa070d088d6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    height: 40vh;
+    text-align: center;
+    font-size: 40px;
+
+}
+.imagem-2 span{
+    line-height: 40vh;
+    background-color: none;
+}
+.containertextopequeno{
+    background-color: #5671A6;
+    line-height: 60%;
+    height: 10vh;
+    font-size: 25px;
+    text-align: justify;
+}
+.textopequeno{
+    padding: 11px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: none;
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    
+
+}
+.imagem-3{
+    background-image: url(https://wallpaperaccess.com/full/3490537.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    font-size: 40px;
+}.imagem-3 span{
+    line-height: 40vh;
+}
+.textofinal{
+    padding: 15px;
+    margin-left: 2%;
+    text-align: justify;
+    line-height: 5vh;
+    font-size: 25px;
+    text-align: center justify;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+
+}
